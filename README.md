@@ -5,7 +5,15 @@ Once developers define the configuration of a new API connection and make the re
 
 The package must be installed both on the source and destination Laravel instance.
 
-# Configuration
+# Installation & Configuration
+
+To install `composer require phalouvas/httpquery`
+
+If not autoloaded (e.g. in Lumen)
+add line: 
+`$app->register(\phalouvas\Httpquery\ServiceProvider::class);`
+before `$app->withEloquent();`
+
 In file `config\database.php` add below entry in connections and setup accordingly. Below is an example
 
 ```
@@ -24,3 +32,7 @@ In file `config\database.php` add below entry in connections and setup according
 In order to accept routes.
 Add in your route file below entry:
 `Route::post('/query', '\phalouvas\Httpquery\QueryController@query');`
+
+In your model add:
+`protected $connection = 'http_msms';`
+
