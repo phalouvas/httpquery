@@ -1,0 +1,33 @@
+{
+    "name": "phalouvas/httpquery",
+    "description": "Laravel Http driver for eloquent.",
+    "keywords": ["laravel", "driver", "http"],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Panayiotis Halouvas",
+            "email": "phalouvas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*",
+        "illuminate/database": "^6.9|^7.0|^8.0",
+        "illuminate/http": "^6.9|^7.0|^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "phalouvas\\Httpquery\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
