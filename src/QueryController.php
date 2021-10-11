@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers\Smsto\Httpquery;
+namespace phalouvas\Httpquery;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

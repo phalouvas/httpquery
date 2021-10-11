@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers\Smsto\Httpquery;
+namespace phalouvas\Httpquery;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar as GrammarBase;

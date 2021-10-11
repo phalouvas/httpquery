@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers\Smsto\Httpquery;
+namespace phalouvas\Httpquery;
 
 use Illuminate\Database\Connection as ConnectionBase;
 
