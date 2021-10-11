@@ -2,7 +2,7 @@
     "name": "phalouvas/httpquery",
     "description": "Laravel Http driver for eloquent.",
     "keywords": ["laravel", "driver", "http"],
-    "license": "GNU",
+    "license": "mit",
     "authors": [
         {
             "name": "Panayiotis Halouvas",
